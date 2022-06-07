@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My 3rd Assigment</title>
+</head>
+<link rel="icon" href="./image/Prof.png" type="image/png">
+<style>
+    button {
+        font-size: 40px;
+    }
+    
+    p {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+</style>
+
+<script>
+    function myFunction() {
+        let txt;
+       if (confirm("Ok=Y and Y=Yes while cancel=N and N=No")) {
+            txt = "Yes";
+        } else {
+            txt = "No";
+        }
+        document.getElementById("neso").innerHTML = txt;
+    }
+</script>
+
+<body>
+    <button onclick="myFunction()">Click me!</button>
+    <p id="neso"></p>
+    <p>JavaScript is used for DOM manipulation</p>
+    <p>Does Nefe know How to Do this <del>Yes</del> <ins>No</ins>!</p>
+    <button>
+        <h5> 
+            <a href="./SnakeGame.html">Play my Html Game If Bored</a> 
+        </h5>
+    </button>
+</body>
+
+</html>
